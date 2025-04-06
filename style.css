@@ -1,0 +1,53 @@
+
+table{
+    width: 100%;
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    width: 33%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+a{
+    font-size: x-large;
+    display: block;
+    text-decoration: none;
+}
+td:hover{
+    background-color: black;
+}
+a:hover{
+    color: white;
+}
+
+#unUsed{
+    background-color: darkblue;
+}
+
+/*styles the navigation links*/
+a.navLinkThree {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5pt;
+    text-align: center;
+    vertical-align: middle;
+    font: bold 24pt arial;
+    border: solid 2px black;
+    box-shadow: 3px 3px 3px blue;
+    border-radius: 10px;
+}
+  
+/*highlights the navigation link that your cursor is over*/
+a:hover, 
+button:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    color: black;
+}
